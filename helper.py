@@ -1,7 +1,7 @@
 def print_bord(bord):
     """Function return string-board to print"""
     # TODO
-    return f"{bord[15]} 14 13 12\n11 10  9  8\n 7  6  5  4\n 3  1  2  _"
+    return f"{bord[15]} 14 13 12\n11 {bord[10]}  9  8\n 7  6  5  4\n 3  1  2  _"
 
 def try_to_move(bord, choise):
     """Function check is _choise_-int is possible to change
